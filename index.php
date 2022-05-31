@@ -22,8 +22,8 @@
 			}else{
 				//AJAX REQUEST
 				var xmlhttp= new XMLHttpRequest();
-				xmlhttp.onreadystatechange=function(){
-					if(this.readystate==4 && this.status==200){
+				xmlhttp.onreadystatechange =function(){
+					if(this.readystate == 4 && this.status == 200){
 						document.getElementById('output').innerHTML=this.responseText;
 					}
 				}
